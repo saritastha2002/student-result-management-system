@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: black;
+}
+.main-content-header{
+    border-top: 3px solid black;
+}
+
+.main-content-header a{
+    text-decoration: none;
+    color: red;
+}
+.main-content-header a:hover{
+    text-decoration: none;
+    color: rgb(3, 70, 8);
+}
+.clearfix:after{
+    content: " ";
+    visibility: ;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#000;
+    text-shadow:  #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+h3{
+    text-align: center;
+}
+.box{
+    font-size: 13px;
+    height: 20px;
+    width: 120px;
+
+}
+input {
+    padding:4px;
+    margin: 1px;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 100px;
+    box-shadow: #151515;
+  }
+ 
+label{
+    width:100px;
+    display:inline-block;
+    margin: 0.2cm;
+    font-size: 20px;
+    
+}
+
+.submit{
+    width: 70px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: rgb(141, 209, 241);
+    border-radius: 10px;
+   margin-left: 110px;
+}
+.submit:hover{
+    background-color: #88bbf5;
+}
+
+ .table2{
+    margin-left: 650px;
+    font-size: 20px;
+    margin-top:50px;
+    border: 1px solid black;
+    border-top:1px solid black;   
+    border-collapse: collapse;
+    text-align: center;
+} 
+.student_class{
+    padding-left: 50px;
+    color: black;
+   border-bottom: 1px solid black;
+}
+student_class2{
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+    
+}
+label{
+    width:100px;
+    display:inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    
+}
+/*border line*/
+/*.student_id{
+    border-left: 1px solid black;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.student_edit{
+    border-right: 1px solid black;
+    color: black;
+    border-bottom: 1px solid black;
+    
+}*/
+table, th{
+    border: 1px solid #151515;
+    border-collapse: collapse;
+    
+}
+th{
+padding: 5px;
+}

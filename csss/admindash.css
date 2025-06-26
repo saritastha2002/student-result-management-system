@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    background:white;
+    color:#686b6c;
+    
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 15%;
+    background: transparent;
+}
+
+.logo {
+    
+  color:black;
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list a {
+    margin: 0 5px;
+    padding: 5px 10px;
+    color:black;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.50s ease;
+}
+
+.nav-list a:hover {
+    color: #637678;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px;
+    color:#000000;
+    background:#00C9E0;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    transition: all 0.40s ease;
+}
+
+.btn:hover {
+    border: 1px solid rgb(175, 232, 245);
+    background: transparent;
+    color:rgb(165, 226, 226);
+}
+
+#menu-icon {
+    color: #FFF;
+    font-size: 38px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+section {
+    padding: 0 15%;
+}
+
+.sec {
+    margin: 100px 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.m-text h1 {
+    font-size: 40px;
+    font-weight: 800;
+    mask-border: 5px;
+}
+
+.m-text p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+input {
+    padding:10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: 50%;
+    box-shadow: #e4cccc;
+  }
+  table {
+    border: 1px solid #272626;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #7fc0cb;
+    border: 1px solid #000000;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
